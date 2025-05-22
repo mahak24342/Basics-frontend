@@ -4,6 +4,16 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+.result-con{
+  width:500px;
+  margin:auto;
+  border:1px solid black;
+  padding:5px;
+  text-align: left;
+  max-height: 500px;
+  overflow-y: scroll;
+  
+}
 
 @theme inline {
   --color-background: var(--background);
